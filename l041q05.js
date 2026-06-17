@@ -24,7 +24,7 @@ else{
     console.log (`Média: ${media.toFixed(1)} Situação - REPROVADO(A)`)
 }
 
-
+// Comentário inserido em 17/06/26
 
 
 
