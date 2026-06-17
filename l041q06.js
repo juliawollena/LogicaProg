@@ -17,11 +17,3 @@ else{
     diferenca = num2 - num1
     console.log (`A diferença entre ${num2} e ${num1} é ${diferenca}`)
 }
-
-
-
-
-
-
-
-
