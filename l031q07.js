@@ -10,3 +10,5 @@ num4 = 5;
 media = (num1 + num2 + num3)/3;
 
 console.log ("A média dos valores inseridos é:" ,media);
+
+// COmentário realizado em 17/16/26
