@@ -4,7 +4,7 @@
 let num, metade;
 
 console.log ("Informe um número: ");
-num = -8; //numero do usuario
+num = 5; //numero do usuario
 
 if ( num > 20 ) {
 metade = num / 2;
