@@ -17,7 +17,7 @@
 
 let base
 let expoente 
-let pot 
+let pot = 1
 
 console.log ("Informe o valor da base")
 base= 2
@@ -29,10 +29,13 @@ console.log (`Valores inseridos: Base: ${base}, Expoente: ${expoente}`)
 
 for (let cont = 1; cont <= expoente; cont ++){
 
-
-
-
+    pot = pot * base;
     
+    console.log (pot)
+
+
+
+
 
 }
 
