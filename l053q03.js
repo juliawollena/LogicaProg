@@ -15,13 +15,13 @@
 
 
 let cont = 1
-let num = 5
+let num = 7
 let acum = 0
 let resultado
+
 console.log (`Informe um número: ${num}`)
 
 for ( let cont = 1; cont <= 10; cont ++) {
-
 
  resultado = num * cont
 

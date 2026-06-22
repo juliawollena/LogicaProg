@@ -1,14 +1,22 @@
-let num1, num2, num3, media;
+// Fazer um algoritmo que pergunte 3 números e apresente a média aritmética entre estes 3 números.
 
-console.log ("Insira o primeiro valor: ");
-num1 = 5;
-console.log ("Insira o segundo valor: ");
-num2 = 3;
-console.log ("Insira o terceiro valor: ");
-num4 = 5;
+let num1;  let num2; let num3; let media;
 
-media = (num1 + num2 + num3)/3;
+num1 = 15
+console.log (`Informe o primeiro número: ${num1}`);
+num2 = 15;
+console.log (`Informe o primeiro número: ${num2}`);
+num3 = 5;
+console.log (`Informe o primeiro número: ${num3}`);
 
-console.log ("A média dos valores inseridos é:" ,media);
+media = (num1 + num2 + num3) / 3;
 
-// COmentário realizado em 17/16/26
+console.log (`A média dos número inseridos é ${media}`)
+
+
+
+
+
+
+
+
