@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #a25bf9,
+        #666bf6,
+        #660ee9
+    );
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.post {
+    background: rgba(0, 0, 0, 0.35);
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    margin: 0 auto;
+
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.post h2 {
+    font-size: 32px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.post p {
+    font-size: 24px;
+}
+
+.rodape {
+    margin-top: 30px;
+    font-size: 18px;
+}
