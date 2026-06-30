@@ -1,11 +1,14 @@
-let num
+// Desenvolver um programa que pergunte um número, e apresente como resposta se o referido número é par ou
+// é ímpar.
 
-console.log ("Insira um número: ")
-num = 80
+let num 
 
-if (num % 2 == 0){
-    console.log (`O número ${num} é Par`)
-}
-else {
-    console.log (`O número ${num} é Impar`)
+num = 325
+console.log (`Informe um número: ${num}`)
+
+
+if (num % 2 === 0) {
+    console.log ("Par")
+} else {
+    console.log ("Impar")
 }

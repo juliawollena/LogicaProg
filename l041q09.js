@@ -1,16 +1,17 @@
-let num;
+// Desenvolver um programa que pergunte um número e exiba a informação de que ele é positivo, negativo ou
+// nulo.
 
-num = 0;
-console.log ("Informe um número");
+let num
 
-if (num > 0) {
-    console.log (`${num} é o positivo`);
+num = 10;
+console.log (`Informe um número ${num}`);
+
+if (num > 0){
+    console.log (`${num} é um número positivo`)
 }
-else if (num < 0){
-    console.log (`${num} é negativo`);
-} 
+else if (num === 0 ) {
+    console.log (`${num} é um número nulo`)
+}
 else {
-    console.log (`${num} é nulo`);
+    console.log (`${num} é negativo`)
 }
-
-// Exemplo com else if 
